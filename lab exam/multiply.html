@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiply</title>
+    <script src= "./multiply.js"> </script>
+</head>
+<body>
+
+        <form id="calculate-form">
+            <label for="num1" >Number 1 : </label>
+            <input type="number" id="num1" name="n1"><br />
+            <label for="num2" >Number 2 : </label>
+            <input type="number" id="num2" name="num2"><br />
+            <label for="result" >Result : </label>
+            <input type="number" id="result" name="res" readonly><br />
+
+            <button type="button" name="btn" id="multiply" value="multiply" onclick="calculate('m')"> Multiply</button>
+            <button type="button" name="btn" id="divide" value="divide" onclick="calculate('d')"> Divide</button>
+            <button type="reset" name="btn" id="Cancel" value="Cancel"> Reset</button>
+
+        </form>
+
+            <p id="answer" > Display Answer</p>
+    
+</body>
+</html>
